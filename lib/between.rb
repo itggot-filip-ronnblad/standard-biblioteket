@@ -1,15 +1,15 @@
-# Public: Takes three numbers and checks if a number is between the others
+# Public: Takes three numbers and checks if the first number is between the others
 #
-# num1 - One integer to be compared with others.
-# num2 - One integer to be compared with others.  
-# num3 - One integer to be compared with others.
+# num1 - The integer to be compared with others.
+# num2 - One integer as the limit.  
+# num3 - One integer as the limit.
 #
 # Examples
 #
-#  between(1,2,3)
+#  between(3,2,4)
 #  # => true
 #
-# Returns wheter the result is true or false 
+# Returns wheter num1 is between num2 and num3 
 def between(num1,num2,num3)
     if num2 > num3
         if num1>= num3 && num1<= num2
