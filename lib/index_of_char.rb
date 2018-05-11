@@ -30,7 +30,3 @@ def index_of_char(string,char)
         i += 1
     end
 end
-
-p index_of_char("hej hopp", "h")
-p index_of_char("Hello World!","!")
-p index_of_char("Hello World","!")
