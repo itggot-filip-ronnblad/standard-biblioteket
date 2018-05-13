@@ -10,7 +10,7 @@
 #  left_strip("\tTesttest\t")
 #  # => "Testtest\t"
 #
-# Returns count which is how many times the character appered in the string. 
+# Returns the new string without the whitespace to the left. 
 def left_strip(string)
     whitespaces = ["\n", "\t"]
     i = 0
